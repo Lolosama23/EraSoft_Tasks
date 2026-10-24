@@ -1,0 +1,10 @@
+package com.lo2ay.enums;
+
+public enum TransferStatus {
+    SOURCE_ACCOUNT_NOT_FOUND,
+    DESTINATION_ACCOUNT_NOT_FOUND,
+    TRANSFER_TO_SELF_NOT_ALLOWED,
+    INVALID_AMOUNT,
+    INSUFFICIENT_BALANCE,
+    SUCCESS
+}
